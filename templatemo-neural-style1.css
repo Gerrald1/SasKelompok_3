@@ -1,0 +1,109 @@
+/* ===========================
+   ANGOTA KELOMPOK (CENTERED)
+============================ */
+.anggota-section {
+    padding: 100px 5%;
+    text-align: center;
+}
+
+.anggota-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;  /* CENTERING */
+    align-items: center;      /* CENTERING */
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.anggota-card {
+    width: 280px;
+    padding: 25px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+    transition: 0.3s ease;
+    text-align: center;       /* CENTER TEXT */
+    margin-left: auto;        /* ADD */
+    margin-right: auto;       /* ADD */
+}
+
+.anggota-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(146, 255, 209, 0.7),
+                0 0 40px rgba(199, 30, 100, 0.5);
+}
+
+.anggota-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid rgba(162, 255, 175, 0.8);
+    box-shadow: 0 0 12px rgba(162, 255, 175, 0.8);
+    display: block;
+    margin-left: auto;        /* CENTER IMAGE */
+    margin-right: auto;       /* CENTER IMAGE */
+}
+
+.anggota-card h3,
+.anggota-role,
+.anggota-desc {
+    text-align: center;       /* JUST IN CASE */
+}
+
+
+
+/* ===========================
+   DOKUMENTASI (CENTERED)
+============================ */
+.dokumentasi-section {
+    padding: 100px 5%;
+    text-align: center;        /* TITLE CENTER */
+}
+
+.dokumentasi-container {
+    margin-top: 40px;
+    display: flex;             /* CHANGE GRID TO FLEX */
+    justify-content: center;   /* CENTER ITEMS */
+    align-items: center;       /* CENTER ITEMS */
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.doku-card {
+    width: 280px;              /* FIXED WIDTH FOR CENTERING */
+    border-radius: 18px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.12);
+    transition: 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    margin-left: auto;         /* AUTO CENTER */
+    margin-right: auto;        /* AUTO CENTER */
+}
+
+.doku-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(162,255,175,0.7),
+                0 0 40px rgba(255,50,150,0.5);
+}
+
+.doku-photo {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.doku-info {
+    padding: 20px;
+    text-align: center;        /* CENTER TEXT */
+}
+
+.doku-info h4,
+.doku-info p {
+    text-align: center;
+}
